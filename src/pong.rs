@@ -64,6 +64,7 @@ fn initialize_paddles(world: &mut World, sprite_sheet_handle: Handle<SpriteSheet
         sprite_sheet: sprite_sheet_handle,
         sprite_number: 0,
     };
+
     // Create a left paddle entity
     world
         .create_entity()
